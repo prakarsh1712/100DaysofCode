@@ -3,7 +3,7 @@ class Solution {
         int ans = 0;
     int num = 0;
     int sign = 1;
-    Deque<Integer> stack = new ArrayDeque<>(); // Stack.peek(): current env's sign
+    Deque<Integer> stack = new ArrayDeque<>(); 
     stack.push(sign);
 
     for (final char c : s.toCharArray())
